@@ -121,13 +121,13 @@ Hello
 ```
 
 ## What is the difference between Encoding, Encryption, Hash Function?
-	- Encoding: is  only a function that is always possible to reverse somehow, it might or might not imply the need of a secret, so it can be just a mathematical transformation that doesn’t even need a secret to be known to revert it, so it’s just a mathematical function that transforms an input to an output in such a way in which you can always reverse the output and find the input if you know the rule 
+- Encoding: is  only a function that is always possible to reverse somehow, it might or might not imply the need of a secret, so it can be just a mathematical transformation that doesn’t even need a secret to be known to revert it, so it’s just a mathematical function that transforms an input to an output in such a way in which you can always reverse the output and find the input if you know the rule 
 	
-	- Encryption: transforming an input to an output, but to go back from the output to the input you always need a secret, we can say it’s a particular way of encoding, its still a transformation function but you always need a secret to go back to the input, so not everyone can find the inout from the output unless having the secret 
+- Encryption: transforming an input to an output, but to go back from the output to the input you always need a secret, we can say it’s a particular way of encoding, its still a transformation function but you always need a secret to go back to the input, so not everyone can find the inout from the output unless having the secret 
 
-	- Hash Function: 
-		- From an input we can get an output, but from the output you can never by any means find the input again, so going from an output to input is not possible.
-		- Same input will always result in the same output.
+- Hash Function:
+  - From an input we can get an output, but from the output you can never by any means find the input again, so going from an output to input is not possible.
+  - Same input will always result in the same output.
 
 Usually the hash function is the preferred way to store temporary or permanently passwords, so if someone steel the hashed password he can never know the input
 
