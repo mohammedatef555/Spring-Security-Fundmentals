@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring Security Fundmentals.iml" filepath="$PROJECT_DIR$/.idea/Spring Security Fundmentals.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-security-lesson1/spring-security-lesson1.iml" filepath="$PROJECT_DIR$/spring-security-lesson1/spring-security-lesson1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security-lesson2/spring-security-lesson2.iml" filepath="$PROJECT_DIR$/spring-security-lesson2/spring-security-lesson2.iml" />
     </modules>
   </component>
 </project>
