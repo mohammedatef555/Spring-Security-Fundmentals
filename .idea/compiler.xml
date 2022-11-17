@@ -10,16 +10,19 @@
         <module name="spring-security-lesson1" />
         <module name="spring-security-lesson2" />
         <module name="spring-security-lesson3" />
+        <module name="Spring-security-lesson4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-security-lesson1" target="17" />
       <module name="spring-security-lesson2" target="17" />
       <module name="spring-security-lesson3" target="17" />
+      <module name="Spring-security-lesson4" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-security-lesson4" options="-parameters" />
       <module name="spring-security-lesson1" options="-parameters" />
       <module name="spring-security-lesson2" options="-parameters" />
       <module name="spring-security-lesson3" options="-parameters" />
